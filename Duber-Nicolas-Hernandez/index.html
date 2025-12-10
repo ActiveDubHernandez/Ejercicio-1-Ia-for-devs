@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .error { color: red; font-size: 0.9em; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form id="registrationForm">
+        <div class="form-group">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username">
+            <div id="usernameError" class="error"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <div id="emailError" class="error"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password">
+            <div id="passwordError" class="error"></div>
+        </div>
+
+        <button type="submit">Registrar</button>
+        <div id="successMessage" class="error" style="color: green;"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
