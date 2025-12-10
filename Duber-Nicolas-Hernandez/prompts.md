@@ -2,7 +2,7 @@
 
 ## Herramienta de IA Utilizada
 **Gemini 3 Pro** (Perplexity AI)
-**Evidencia** (https://www.perplexity.ai/search/eres-un-arquitecto-senior-de-s-NiM67A44SIeL0GF7oHcoAQ#2)
+**Evidencia** (https://www.perplexity.ai/search/eres-un-arquitecto-senior-de-s-NiM67A44SIeL0GF7oHcoAQ#1)
 ---
 
 ## Estrategia de Prompting
